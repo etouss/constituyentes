@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "chat-elecciones-backend"
+version = "0.1.0"
+description = "Backend para la App chat-elecciones"
+authors = ["Alanezz <adrian.soto.suarez@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+fastapi = "0.95.*"
+uvicorn = "0.21.*"
+fastapi-sqlalchemy = "0.2.*"
+psycopg2-binary = "2.9.*"
+gunicorn = "20.1.*"
+python-dotenv = "1.0.*"
+openai = "0.27.*"
+numpy = "1.23.*"
+boto3 = "1.26.*"
+tiktoken= "0.3.3"
+
+[tool.poetry.dev-dependencies]
